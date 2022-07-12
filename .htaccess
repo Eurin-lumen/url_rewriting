@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^salut$ index.php
+RewriteRule ^article/([a-z0-9-]+)-([0-9]+)$ article.php?titre=$1&id=$2
